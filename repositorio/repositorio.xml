@@ -1,0 +1,334 @@
+<ContasUsuarios>
+  <PessoaFisica>
+    <usuario>Pedro</usuario>
+    <seguidos>
+      <PessoaFisica>
+        <usuario>henrique</usuario>
+        <seguidos>
+          <PessoaFisica>
+            <usuario>Carlos</usuario>
+            <seguidos>
+              <PessoaFisica reference="../../../.."/>
+              <PessoaFisica reference="../../../../../.."/>
+              <PessoaFisica>
+                <usuario>Marcos</usuario>
+                <seguidos>
+                  <PessoaFisica reference="../../../../../.."/>
+                  <PessoaFisica>
+                    <usuario>Youtube</usuario>
+                    <seguidos/>
+                    <seguidores>
+                      <PessoaFisica reference="../../../../../../../.."/>
+                      <PessoaFisica reference="../../../.."/>
+                      <PessoaFisica reference="../../../../../.."/>
+                      <PessoaFisica>
+                        <usuario>Roberta</usuario>
+                        <seguidos>
+                          <PessoaFisica reference="../../../../../../../.."/>
+                          <PessoaFisica reference="../../../.."/>
+                          <PessoaFisica reference="../../../../../../../../../.."/>
+                        </seguidos>
+                        <seguidores>
+                          <PessoaFisica reference="../../../../../../../../../.."/>
+                          <PessoaFisica reference="../../../../../../../.."/>
+                          <PessoaJuridica>
+                            <usuario>Google</usuario>
+                            <seguidos>
+                              <PessoaFisica reference="../../../../../../../../../.."/>
+                              <PessoaFisica reference="../../../.."/>
+                              <PessoaFisica reference="../../../../../../../../../../../.."/>
+                            </seguidos>
+                            <seguidores>
+                              <PessoaFisica reference="../../../../../../../../../../../.."/>
+                              <PessoaFisica reference="../../../../../../../../../.."/>
+                              <PessoaFisica reference="../../../../../../../../../../../../../.."/>
+                              <PessoaFisica>
+                                <usuario>Katarina</usuario>
+                                <seguidos>
+                                  <PessoaJuridica reference="../../../.."/>
+                                  <PessoaFisica reference="../../../../../../../../../../../../../../../.."/>
+                                  <PessoaJuridica>
+                                    <usuario>Marvel</usuario>
+                                    <seguidos>
+                                      <PessoaFisica reference="../../../.."/>
+                                      <PessoaFisica reference="../../../../../../../../../../../../../../../../../.."/>
+                                      <PessoaFisica reference="../../../../../../../../../../../.."/>
+                                      <PessoaFisica reference="../../../../../../../../../../../../../.."/>
+                                      <PessoaFisica reference="../../../../../../../../../../../../../../../.."/>
+                                      <PessoaFisica>
+                                        <usuario>Henrique</usuario>
+                                        <seguidos/>
+                                        <seguidores>
+                                          <PessoaFisica reference="../../../../../../../../../../../../../../../../../.."/>
+                                          <PessoaFisica reference="../../../../../../../../../../../../../../../../../../../.."/>
+                                          <PessoaJuridica reference="../../../.."/>
+                                        </seguidores>
+                                        <timeline/>
+                                        <ativo>true</ativo>
+                                        <cpf>0</cpf>
+                                      </PessoaFisica>
+                                      <PessoaFisica reference="../../../../../../../.."/>
+                                      <PessoaFisica>
+                                        <usuario>Jorge</usuario>
+                                        <seguidos>
+                                          <PessoaFisica reference="../../../../../../../../../../../../../../../../../../../.."/>
+                                          <PessoaFisica reference="../../../../../../../../../../../../../.."/>
+                                          <PessoaFisica reference="../../../../../../../../../../../../../../../../../.."/>
+                                        </seguidos>
+                                        <seguidores>
+                                          <PessoaFisica reference="../../../../../../../../../../../../../../../../../.."/>
+                                          <PessoaJuridica reference="../../../.."/>
+                                        </seguidores>
+                                        <timeline>
+                                          <Tweet>
+                                            <usuario>Pedro</usuario>
+                                            <mensagem>Ola galera!</mensagem>
+                                          </Tweet>
+                                          <Tweet>
+                                            <usuario>Jorge</usuario>
+                                            <mensagem>Oi pessoal</mensagem>
+                                          </Tweet>
+                                          <Tweet>
+                                            <usuario>Jorge</usuario>
+                                            <mensagem>Digite seu tweet</mensagem>
+                                          </Tweet>
+                                          <Tweet>
+                                            <usuario>Pedro</usuario>
+                                            <mensagem>Oi Amigos</mensagem>
+                                          </Tweet>
+                                          <Tweet>
+                                            <usuario>Pedro</usuario>
+                                            <mensagem>Testando amigos</mensagem>
+                                          </Tweet>
+                                        </timeline>
+                                        <ativo>true</ativo>
+                                        <cpf>0</cpf>
+                                      </PessoaFisica>
+                                      <PessoaFisica reference="../../../../../../../../../.."/>
+                                      <PessoaJuridica reference="../../../../../.."/>
+                                    </seguidos>
+                                    <seguidores>
+                                      <PessoaFisica reference="../../../.."/>
+                                    </seguidores>
+                                    <timeline>
+                                      <Tweet>
+                                        <usuario>Marvel</usuario>
+                                        <mensagem>Novos Herois</mensagem>
+                                      </Tweet>
+                                      <Tweet>
+                                        <usuario>Katarina</usuario>
+                                        <mensagem>Bom dia!</mensagem>
+                                      </Tweet>
+                                      <Tweet>
+                                        <usuario>Katarina</usuario>
+                                        <mensagem>Oi amigos</mensagem>
+                                      </Tweet>
+                                    </timeline>
+                                    <ativo>false</ativo>
+                                    <cnpj>0</cnpj>
+                                  </PessoaJuridica>
+                                </seguidos>
+                                <seguidores>
+                                  <PessoaJuridica reference="../../seguidos/PessoaJuridica[2]"/>
+                                  <PessoaFisica reference="../../../../../../../../../../../../../.."/>
+                                </seguidores>
+                                <timeline>
+                                  <Tweet>
+                                    <usuario>Katarina</usuario>
+                                    <mensagem>Ola amigos!</mensagem>
+                                  </Tweet>
+                                  <Tweet reference="../../seguidos/PessoaJuridica[2]/timeline/Tweet"/>
+                                  <Tweet reference="../../seguidos/PessoaJuridica[2]/timeline/Tweet[2]"/>
+                                  <Tweet reference="../../seguidos/PessoaJuridica[2]/timeline/Tweet[3]"/>
+                                </timeline>
+                                <ativo>true</ativo>
+                                <cpf>0</cpf>
+                              </PessoaFisica>
+                              <PessoaJuridica reference="../PessoaFisica[4]/seguidos/PessoaJuridica[2]"/>
+                            </seguidores>
+                            <timeline/>
+                            <ativo>true</ativo>
+                            <cnpj>0</cnpj>
+                          </PessoaJuridica>
+                          <PessoaFisica reference="../../../../../../../../../../../.."/>
+                          <PessoaJuridica reference="../PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]"/>
+                        </seguidores>
+                        <timeline/>
+                        <ativo>true</ativo>
+                        <cpf>0</cpf>
+                      </PessoaFisica>
+                      <PessoaFisica reference="../../../../../../../../../.."/>
+                      <PessoaJuridica reference="../PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]"/>
+                    </seguidores>
+                    <timeline/>
+                    <ativo>true</ativo>
+                    <cpf>0</cpf>
+                  </PessoaFisica>
+                  <PessoaFisica reference="../../../../../../../.."/>
+                </seguidos>
+                <seguidores>
+                  <PessoaFisica reference="../../../../../.."/>
+                  <PessoaFisica reference="../../../.."/>
+                  <PessoaFisica reference="../../../../../../../.."/>
+                  <PessoaFisica reference="../../seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]"/>
+                  <PessoaJuridica reference="../../seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]"/>
+                </seguidores>
+                <timeline>
+                  <Tweet>
+                    <usuario>Marcos</usuario>
+                    <mensagem>teste-1</mensagem>
+                  </Tweet>
+                  <Tweet>
+                    <usuario>henrique</usuario>
+                    <mensagem>outro teste</mensagem>
+                  </Tweet>
+                  <Tweet>
+                    <usuario>henrique</usuario>
+                    <mensagem>Ola</mensagem>
+                  </Tweet>
+                  <Tweet>
+                    <usuario>henrique</usuario>
+                    <mensagem>Digite seu tweete</mensagem>
+                  </Tweet>
+                  <Tweet reference="../../seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet"/>
+                  <Tweet reference="../../seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet[4]"/>
+                  <Tweet reference="../../seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet[5]"/>
+                </timeline>
+                <ativo>true</ativo>
+                <cpf>0</cpf>
+              </PessoaFisica>
+              <PessoaJuridica reference="../PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica"/>
+              <PessoaFisica reference="../PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]"/>
+              <PessoaFisica reference="../PessoaFisica[3]/seguidos/PessoaFisica[2]"/>
+            </seguidos>
+            <seguidores>
+              <PessoaFisica reference="../../../.."/>
+              <PessoaJuridica reference="../../seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica"/>
+              <PessoaFisica reference="../../seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]"/>
+              <PessoaJuridica reference="../../seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]"/>
+            </seguidores>
+            <timeline>
+              <Tweet>
+                <usuario>Carlos</usuario>
+                <mensagem>Ola mundo</mensagem>
+              </Tweet>
+              <Tweet>
+                <usuario>Carlos</usuario>
+                <mensagem>Oi</mensagem>
+              </Tweet>
+              <Tweet>
+                <usuario>Carlos</usuario>
+                <mensagem>teste-1</mensagem>
+              </Tweet>
+              <Tweet reference="../../seguidos/PessoaFisica[3]/timeline/Tweet[2]"/>
+              <Tweet reference="../../seguidos/PessoaFisica[3]/timeline/Tweet[3]"/>
+              <Tweet reference="../../seguidos/PessoaFisica[3]/timeline/Tweet[4]"/>
+              <Tweet reference="../../seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet"/>
+              <Tweet reference="../../seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet[4]"/>
+              <Tweet reference="../../seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet[5]"/>
+            </timeline>
+            <ativo>true</ativo>
+            <cpf>0</cpf>
+          </PessoaFisica>
+          <PessoaFisica reference="../PessoaFisica"/>
+          <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica[3]"/>
+          <PessoaFisica reference="../../../.."/>
+          <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]"/>
+          <PessoaJuridica reference="../PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica"/>
+          <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]"/>
+          <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]"/>
+          <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[6]"/>
+          <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]"/>
+        </seguidos>
+        <seguidores>
+          <PessoaFisica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]"/>
+          <PessoaFisica reference="../../seguidos/PessoaFisica"/>
+          <PessoaFisica reference="../../../.."/>
+          <PessoaFisica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]"/>
+          <PessoaFisica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]"/>
+          <PessoaJuridica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica"/>
+          <PessoaJuridica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]"/>
+        </seguidores>
+        <timeline>
+          <Tweet>
+            <usuario>henrique</usuario>
+            <mensagem>teste</mensagem>
+          </Tweet>
+          <Tweet>
+            <usuario>henrique</usuario>
+            <mensagem>oi</mensagem>
+          </Tweet>
+          <Tweet>
+            <usuario>henrique</usuario>
+            <mensagem>Noticias</mensagem>
+          </Tweet>
+          <Tweet>
+            <usuario>henrique</usuario>
+            <mensagem>Filmes</mensagem>
+          </Tweet>
+          <Tweet>
+            <usuario>henrique</usuario>
+            <mensagem>Jornal</mensagem>
+          </Tweet>
+          <Tweet reference="../../seguidos/PessoaFisica/timeline/Tweet[3]"/>
+          <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/timeline/Tweet"/>
+          <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/timeline/Tweet[2]"/>
+          <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/timeline/Tweet[3]"/>
+          <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/timeline/Tweet[4]"/>
+          <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet"/>
+          <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet[4]"/>
+          <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet[5]"/>
+          <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/timeline/Tweet[3]"/>
+        </timeline>
+        <ativo>true</ativo>
+        <cpf>0</cpf>
+      </PessoaFisica>
+      <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]"/>
+      <PessoaJuridica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica"/>
+      <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]"/>
+      <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[6]"/>
+      <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]"/>
+    </seguidos>
+    <seguidores>
+      <PessoaFisica reference="../../seguidos/PessoaFisica"/>
+      <PessoaFisica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica"/>
+      <PessoaFisica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]"/>
+      <PessoaFisica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]"/>
+      <PessoaFisica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]"/>
+      <PessoaJuridica reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]"/>
+    </seguidores>
+    <timeline>
+      <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet"/>
+      <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet[4]"/>
+      <Tweet reference="../../seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]/timeline/Tweet[5]"/>
+    </timeline>
+    <ativo>true</ativo>
+    <cpf>0</cpf>
+  </PessoaFisica>
+  <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]"/>
+  <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica"/>
+  <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[6]"/>
+  <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]"/>
+  <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]/seguidos/PessoaFisica[8]"/>
+  <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]"/>
+  <PessoaJuridica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica"/>
+  <PessoaFisica>
+    <usuario>Maria</usuario>
+    <seguidos/>
+    <seguidores/>
+    <timeline/>
+    <ativo>false</ativo>
+    <cpf>0</cpf>
+  </PessoaFisica>
+  <PessoaJuridica>
+    <usuario>Amazon</usuario>
+    <seguidos/>
+    <seguidores/>
+    <timeline/>
+    <ativo>false</ativo>
+    <cnpj>0</cnpj>
+  </PessoaJuridica>
+  <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]"/>
+  <PessoaFisica reference="../PessoaFisica/seguidos/PessoaFisica"/>
+  <PessoaJuridica reference="../PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica/seguidos/PessoaFisica[3]/seguidos/PessoaFisica[2]/seguidores/PessoaFisica[4]/seguidores/PessoaJuridica/seguidores/PessoaFisica[4]/seguidos/PessoaJuridica[2]"/>
+</ContasUsuarios>
